@@ -87,12 +87,10 @@ font-size: 11px;
 .landing .intro-text input:first-of-type {
   background-color: var(--main-color);
   color: white;
-  border: 2px solid var(--main-color);
 }
 .landing .intro-text input:last-of-type{
   background-color: var(--main-color);
   color: white;
-  border: 2px solid var(--main-color);
 }
 /* end landing */
 /* start features */
@@ -274,7 +272,6 @@ font-size: 11px;
   margin-bottom: 40px;
 }
 .landing-last .text input{
-  border: 1px solid var(--main-color);
   background-color: var(--main-color);
   color: white;
   font-weight: 300;
@@ -421,5 +418,4 @@ font-size: 11px;
   text-align: center;
   align-items: center;
 }
-
 /* end footer */
