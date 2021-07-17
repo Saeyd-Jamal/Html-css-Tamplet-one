@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Fashion Shop</title>
     <!-- file css -->
     <link rel="stylesheet" href="css/style.css">
@@ -11,9 +11,18 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- font page -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
+  
   <body>
+    <div class="loading" id="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="body" id="body">
     <!-- start header -->
     <div class="header">
       <div class="container">
@@ -36,8 +45,8 @@
         <span>NEW TREND</span>
         <h2>COLLUSION</h2>
         <p>An exclusive selection of this season's trends.</p>
-        <input type="button" value="DISCOVER">
-        <input type="button" value="SHOP NOW">
+        <button>DISCOVER</button>
+        <button>SHOP NOW</button>
       </div>
     </div>
     <!-- end landing -->
@@ -183,7 +192,7 @@
         <span>OWN THE DAY</span>
         <h2>TACHEN 19</h2>
         <p>SHOP COLLECTION</p>
-        <input type="button" value="SHOP COLLECTION">
+        <button>SHOP COLLECTION</button>
       </div>
     </div>
     <!-- end landing last -->
@@ -209,7 +218,7 @@
             <span class="head">RECIVE EMAIL UPDATES</span>
             <div class="email">
               <input type="email" placeholder="Your Email Address">
-              <span>JOIN</span>
+              <input type="submit" value="JOIN">
             </div>
           </div>
           <div class="bottom">
@@ -250,5 +259,7 @@
       <p>Copyright © 2020 . Your companyname All rights reserved</p>
     </div>
     <!-- end footer -->
+  </div>
+  <script src="Js/script.js"></script>
   </body>
 </html>
